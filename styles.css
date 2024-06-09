@@ -202,7 +202,7 @@
   margin-bottom: 0; /* Remove bottom margin */
   padding-top: 50px; /* Add padding to the top */
   padding-bottom: 50px; /* Add padding to the bottom */
-  background: url('https://cdn.dribbble.com/users/2376204/screenshots/5584751/ezgif.com-resize__2_.gif') no-repeat center center/cover;
+  background: url('') no-repeat center center/cover;
   background-size: 100%; /* Adjust this value to zoom out */
 }
 .hero__container {
