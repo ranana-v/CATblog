@@ -288,6 +288,30 @@ text-shadow:
   .hero__description {
     font-size: 40px;
   }
+  body {
+    font-family: Arial, sans-serif; /* Change to Arial on smaller screens */
+}
+
+/* Hide the footer on mobile */
+.footer__container {
+    display: none;
+}
+
+/* Center and adjust images on mobile */
+.main__img--container {
+    display: flex;
+    justify-content: center;
+}
+
+.main__img--card {
+    max-width: 100%; /* Prevent image stretching */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Add padding to the top of the container on mobile */
+.container {
+    padding-top: 50px;
+}
 }
 
 /* About Section */
