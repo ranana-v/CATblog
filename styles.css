@@ -96,7 +96,7 @@
 }
 
 .navbar__links:hover {
-  color: #f59dc6;
+  color: #f7489a;
   transition: all 0.3s ease;
 }
 
@@ -124,7 +124,7 @@
   }
 
   .navbar__menu.active {
-    background: #131313;
+    background: #f5a0ae;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -144,7 +144,7 @@
     transition: all 0.3s ease-in-out;
     background: #fff;
   }
-
+  
   .navbar__item {
     width: 100%;
   }
@@ -192,6 +192,7 @@
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+  
 }
 
 /* Hero Section */
